@@ -45,3 +45,11 @@
   @end 
   ```
   
+## C Structures Can Hold Primitive Values
+
+  Cocoa, Cocoa Touch API 중 어떤 것은 값을 담기 위해 C Structures를 사용합니다. 한 예시로,
+  ```objective-c 
+  NSString *mainString = @"This is a long string";
+  NSRange substringRange = [mainString rangeOfString:@"long"];
+  ```
+  
