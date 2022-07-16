@@ -59,9 +59,17 @@
 ### Strings Are Represented by Instrances of the NSString Class 
   
   ```objective-c 
+  // 1.
   NSString *firstString = [[NSString alloc]
   initWithCString:"Hello World!"
   
   encoding:NSUTFStringEncoding];
  
+  // 2.
+  NSString *secondString = [NSString stringWithCString: "Hello World!"
+  
+  encoding:NSUTFStringEncoding];
+  
+  // 3.
+  NSString *thirdString = @"Hello World!";
   ```
