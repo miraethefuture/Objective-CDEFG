@@ -53,3 +53,15 @@
   NSRange substringRange = [mainString rangeOfString:@"long"];
   ```
   NSRange 스트럭쳐는 위치와 길이에 대한 정보를 가집니다. 위 예시의 substringRange는 {10, 4} 라는 range를 가집니다. long 의 첫글자인 l 의 인덱스가 (mainString 에서) 10 이고 long의 길이가 4이기 때문이죠. {위치, 길이}
+  
+## Objects Can Represent Primitive Values 
+  
+### Strings Are Represented by Instrances of the NSString Class 
+  
+  ```objective-c 
+  NSString *firstString = [[NSString alloc]
+  initWithCString:"Hello World!"
+  
+  encoding:NSUTFStringEncoding];
+ 
+  ```
