@@ -73,4 +73,12 @@
   // 3.
   NSString *thirdString = @"Hello World!";
   ```
+  
   위의 예시 코드는 모두 같은 일을 효과적으로 수행합니다. 주어진 문자를 보여주는 스트링 객체를 생성하죠.
+  NSString 클래스는 변경되지 않습니다. NSString에 담긴 컨텐츠는 클래스가 생성될 때 한번 설정되면 그 뒤로 바뀌지 않습니다.
+  만약 다른 문자열을 나타내고 싶다면 새 문자열 객체를 생성해야 합니다.
+  
+  ```objective-c
+  NSString *name = @"John";
+  //name = [name stringByAppendingString:@"ny"]; 에러남 ....(?)
+  ```
