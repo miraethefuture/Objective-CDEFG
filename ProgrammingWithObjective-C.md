@@ -82,3 +82,12 @@
   NSString *name = @"John";
   //name = [name stringByAppendingString:@"ny"]; 에러남 ....(?)
   ```
+
+### Format Strings Are Used to Build Strings from Other Objects or Values
+  
+  변수값을 포함하는 문자열을 생성하고 싶다면 format string을 사용해야 합니다. format string을 사용하므로써 format specifiers를 사용하여 
+  변수값이 문자열의 어디에 들어갈지 나타낼 수 있게 됩니다.
+  
+  ```objective-c
+  int magicNumber = 
+  ```
