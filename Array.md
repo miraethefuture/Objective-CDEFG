@@ -20,3 +20,7 @@ Implementation 안에 배열을 먼저 초기화.
 배열에 기본값을 주기
 NSArray *array = @[someObject, @"Hello, World!", @42];
 
+
+
+Contain object 메서드를 사용해서 rssi값을 담는 객체와 배열의
+내용을 비교해보려고 했는데 에러는 나지 않았지만 rssi 값과 같은 값이 배열에 없다면 계속해서 배열에 값을 더하므로 다른 로직을 찾아야 할 것 같다.
